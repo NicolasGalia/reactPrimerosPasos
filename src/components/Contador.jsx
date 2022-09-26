@@ -5,8 +5,8 @@ const Contador = () => {
 let [counter, setCounter] = useState(9);
 
 const sumar = ()=>{
-console.log("desde sumar"
-)
+//actualizar el state 
+setCounter(counter + 1)
 }
 
     return (
