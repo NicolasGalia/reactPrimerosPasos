@@ -11,7 +11,7 @@ let mes = 9
       <TituloPrincipal comision="c7i" mes = {mes}></TituloPrincipal>
       <HolaMundo></HolaMundo>
       <hr></hr>
-      <Contador></Contador>
+      <Contador valorInicial = {0}></Contador>
     </div>
   );
 }
